@@ -1,0 +1,14 @@
+.chart-container {
+    /* background-color: #1E1E2D; */
+    padding: 20px;
+    border-radius: 20px;
+    /* Set border radius to 20px */
+    width: 120%;
+    /* Set the width to 100% or any desired value */
+    max-width: 2000px;
+    /* Set a maximum width for the chart container */
+    height: 400px;
+    /* Set the height of the chart container */
+    margin: 0 auto;
+    /* Center the chart container */
+}
