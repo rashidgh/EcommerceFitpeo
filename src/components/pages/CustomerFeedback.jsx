@@ -6,13 +6,14 @@ import image3 from "../../assets/feedbackImg3.jpg";
 import image4 from "../../assets/feedbackImg4.jpg";
 import image5 from "../../assets/feedbackImg5.jpg";
 
-
-
 const CustomerFeedback = () => {
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 768);
-   
+
   return (
-    <div id="feedbacksection" className="w-[33.5vw] bg-[#1F2029] rounded-[8px]  p-3 overflow-auto max-h-[28rem]">
+    <div
+      id="feedbacksection"
+      className="w-[33.5vw] bg-[#1F2029] rounded-[8px]  p-3 overflow-auto max-h-[28rem]"
+    >
       <div className="text-xl font-semibold mx-4  mt-2">CustomerFeedback</div>
       <div>
         <div className="mt-2 flex flex-col gap-2 border-b-[1px] border-[#2E2F38] p-4">
@@ -61,7 +62,7 @@ const CustomerFeedback = () => {
                 alt=""
               />
             </div>
-            <div className="text-[17px] font-semibold">Jenny Wilson</div>
+            <div className="text-[17px] font-semibold">Dianne Russell</div>
           </div>
           <div className="flex text-xl gap-1 text-[#FBDF20]">
             <span>
@@ -96,7 +97,7 @@ const CustomerFeedback = () => {
                 alt=""
               />
             </div>
-            <div className="text-[17px] font-semibold">Jenny Wilson</div>
+            <div className="text-[17px] font-semibold">Hudson Wilson</div>
           </div>
           <div className="flex text-xl gap-1 text-[#FBDF20]">
             <span>
@@ -111,7 +112,7 @@ const CustomerFeedback = () => {
             <span>
               <FaStar />
             </span>
-            <span className="text-[#fff]">
+            <span>
               <FaStar />
             </span>
           </div>
@@ -131,7 +132,7 @@ const CustomerFeedback = () => {
                 alt=""
               />
             </div>
-            <div className="text-[17px] font-semibold">Jenny Wilson</div>
+            <div className="text-[17px] font-semibold">Jameson Peter</div>
           </div>
           <div className="flex text-xl gap-1 text-[#FBDF20]">
             <span>
@@ -146,7 +147,7 @@ const CustomerFeedback = () => {
             <span>
               <FaStar />
             </span>
-            <span className="text-[#fff]">
+            <span>
               <FaStar />
             </span>
           </div>
@@ -166,7 +167,7 @@ const CustomerFeedback = () => {
                 alt=""
               />
             </div>
-            <div className="text-[17px] font-semibold">Jenny Wilson</div>
+            <div className="text-[17px] font-semibold">Braxton Wilson</div>
           </div>
           <div className="flex text-xl gap-1 text-[#FBDF20]">
             <span>
@@ -181,7 +182,7 @@ const CustomerFeedback = () => {
             <span>
               <FaStar />
             </span>
-            <span className="text-[#fff]">
+            <span>
               <FaStar />
             </span>
           </div>
